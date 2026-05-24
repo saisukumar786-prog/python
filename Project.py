@@ -13,7 +13,7 @@ def prime_check(n):
             return False
 
     return True
-
+ 
 def square_root(n):
     return math.sqrt(n)
 
