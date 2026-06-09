@@ -1,9 +1,8 @@
-list = [ 1, 0, 3, 4, 0, 6, 0, 8, 0, 10 ]
-print(list)
-for i in range(len(list)):
-    if list[i]==0:
-        del list[i]
-        list.append(0)
-
-
-print(list)        
+import matplotlib.pyplot as plt
+x = [1, 2, 3]
+y = [2, 4, 1]
+plt.plot(x, y)
+plt.xlabel('x-axis' )
+plt.ylabel('y-axis')
+plt.title('Simple Line Plot')
+plt.show()
